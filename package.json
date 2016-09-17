@@ -1,0 +1,30 @@
+{
+  "name": "searchdatafromusa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node app2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "cheerio": "^0.22.0",
+    "htmlparser2": "^3.9.1",
+    "js2xmlparser": "^1.0.0",
+    "path": "^0.12.7",
+    "request": "^2.74.0",
+    "sax": "^1.2.1",
+    "sync": "^0.2.5",
+    "underscore": "^1.8.3",
+    "xml2json": "^0.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}
